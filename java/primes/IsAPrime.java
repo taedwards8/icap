@@ -11,6 +11,14 @@ public class IsAPrime implements Callable<Boolean>{
 
 	@Override
 	public Boolean call() {
+		if(n==1){
+			return false;
+		}
+		
+		if(n==2){
+			return true;
+		}
+		
 	    if (n%2==0){
 	    	return false;
 	    }
