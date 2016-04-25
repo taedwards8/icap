@@ -10,14 +10,6 @@ public class GetNPrimes implements Callable<List<Integer>>{
 	public GetNPrimes(int numberOfPrimes){
 		this.numberOfPrimes = numberOfPrimes;
 	}		
-	
-//	public int getNumberOfPrimes() {
-//		return numberOfPrimes;
-//	}
-//
-//	public void setNumberOfPrimes(int numberOfPrimes) {
-//		this.numberOfPrimes = numberOfPrimes;
-//	}
 
 	@Override
 	public List<Integer> call() {
